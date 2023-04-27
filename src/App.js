@@ -7,6 +7,7 @@ import ParticleBackground from "./components/ParticleBackground";
 import Footer from "./components/Footer";
 import Carousel from "./components/Carousel";
 import Cards from "./components/Cards";
+import Address from "./components/Address";
 
 import Preloader from "./components/Pre";
 import {
@@ -41,7 +42,8 @@ function App() {
       <Cards/>
       <Carousel/>
       
-      <SocialLinks/>      
+      <SocialLinks/>  
+      <Address/>    
       <Footer />
    
     </div>
