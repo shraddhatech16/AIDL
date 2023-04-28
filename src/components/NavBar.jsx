@@ -18,7 +18,7 @@ const NavBar = () => {
     },
     {
       id: 4,
-      link: "MEET THE COMMITEE",
+      link: "CORE COMMITEE",
       
     },
     {

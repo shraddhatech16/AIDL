@@ -46,7 +46,7 @@ function Carousel() {
   return (
     <div
       name="carousel"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black  text-white"
+      className="mt-10 inline-block w-full h-screen bg-gradient-to-b from-gray-800 to-black  text-white "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -56,7 +56,7 @@ function Carousel() {
           <br />
        
     
-    <div className='max-w-[800px] h-[400px] w-full m-auto py-16 px-4 relative group  sm:px-2 py-17 max-w-[800px] h-[400px]'>
+    <div className='lg:max-w-[900px] lg:h-[600px] max-w-[500px] h-[320px] w-full m-auto py-16 px-4 relative group '>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className='w-full h-full rounded-2xl bg-center bg-cover duration-500'

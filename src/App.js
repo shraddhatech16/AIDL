@@ -3,11 +3,12 @@ import NavBar from "./components/NavBar";
 import SocialLinks from "./components/SocialLinks";
 import Home from "./components/Home";
 import About from "./components/About";
-import ParticleBackground from "./components/ParticleBackground";
+import ParticlesjsBackground from "./components/ParticlesjsBackground";
 import Footer from "./components/Footer";
 import Carousel from "./components/Carousel";
 import Cards from "./components/Cards";
 import Address from "./components/Address";
+import Faq from "./components/Faq";
 
 import Preloader from "./components/Pre";
 import {
@@ -31,22 +32,21 @@ function App() {
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}></div>
     <div>
-    
+    <ParticlesjsBackground/>
+
       <NavBar/>
-      <ParticleBackground/>
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
       </Routes>
       <About/>
       <Cards/>
+      <Faq/>
       <Carousel/>
-      
       <SocialLinks/>  
       <Address/>    
       <Footer />
-   
-    </div>
+      </div>
   </Router>
   );
 }
