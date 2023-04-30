@@ -12,7 +12,7 @@ import CoreComm from "./components/CoreComm";
 
 import Preloader from "./components/Pre";
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Route,
   Routes,
 } from "react-router-dom";
@@ -28,7 +28,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <BrowserRouter>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}
       style={{position:"relative",}}>
@@ -37,9 +37,12 @@ function App() {
 
       <NavBar/>
       <Routes>
-      <Route path='/' element={<Home/>} />
-      <Route path='/About' element={<About/>} />
-      <Route path='/Faq' element={<Faq/>} />
+      <Route index element={<Home/>} />
+      <Route path='/about' element={<About />} />
+      <Route path='/events' element={<Carousel />} />
+      <Route path='/faq' element={<Faq/>} />
+      <Route path="/corecomm" element={<CoreComm/>} />
+      <Route path='/contact us' element={<Address />} />
 
       </Routes>
       <About/>
@@ -48,11 +51,9 @@ function App() {
       <Carousel/>
       
       <Address/>    
-      <Footer />
-      <CoreComm/>
-   
+      <Footer />   
     </div>
-  </Router>
+  </BrowserRouter>
   );
 }
 

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import data from "./data";
 import { FaCaretRight } from "react-icons/fa";
+import { Container} from "react-bootstrap";
 
 function Faq() {
   const [selected, setSelected] = useState(null);
@@ -13,6 +14,8 @@ function Faq() {
   };
 
   return (
+    <Container fluid className="faq-section">
+
     <div
     name="Cards"
     className="my-20 mt-10 inline-block bg-gradient-from-b to-gray-800 to-black w-full h-screen pt-20 "
@@ -57,7 +60,7 @@ function Faq() {
     </div>
     </div>
     </div>
-
+</Container>
   );
 }
 

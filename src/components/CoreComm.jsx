@@ -1,4 +1,6 @@
 import React from "react";
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 import CP from '../components/images/CP.png';
 import Secre from '../components/images/Secre.png';
 import Asec from '../components/images/Asec.png';
@@ -10,9 +12,18 @@ import APRH from '../components/images/APRH.png';
 import TH from '../components/images/TH.png';
 import ATec from '../components/images/ATec.png';
 import Treas from '../components/images/Treas.png';
+import { Container} from "react-bootstrap";
 
 function CoreComm() {
 return(
+   <>
+    <NavBar/>
+    <Container fluid className="corecomm-section">
+        <p className="text-4xl font-bold inline border-b-4 border-gray-500 text-white  ">
+          Lets Meet the Core Commitee 2022-2023
+        </p>
+        <br />
+      
     <div className="flex min-h-screen items-center justify-center bg-neutral-800">
     <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
       <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
@@ -182,9 +193,10 @@ return(
       
       </div>
     </div>
-    
-  </div>
-  
+    </div>
+  </Container>
+  <Footer/>
+  </>
 );};
 export default CoreComm;
 

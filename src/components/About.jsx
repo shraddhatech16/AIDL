@@ -1,7 +1,10 @@
 import React from "react";
+import { Container} from "react-bootstrap";
 
 const About = () => {
   return (
+    <Container fluid className="about-section">
+
     <div
       name="about"
       className="w-full h-screen bg-gradient-to-b from-gray-800 to-black  text-white"
@@ -29,6 +32,8 @@ const About = () => {
         </p>
       </div>
     </div>
+    </Container >
+
   );
 };
 
