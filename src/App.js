@@ -8,6 +8,7 @@ import Carousel from "./components/Carousel";
 import Cards from "./components/Cards";
 import Address from "./components/Address";
 import Faq from "./components/Faq";
+import CoreComm from "./components/CoreComm";
 
 import Preloader from "./components/Pre";
 import {
@@ -48,6 +49,7 @@ function App() {
       
       <Address/>    
       <Footer />
+      <CoreComm/>
    
     </div>
   </Router>
