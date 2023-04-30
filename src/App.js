@@ -30,23 +30,27 @@ function App() {
   return (
     <Router>
       <Preloader load={load} />
-      <div className="App" id={load ? "no-scroll" : "scroll"}></div>
-    <div>
+      <div className="App" id={load ? "no-scroll" : "scroll"}>
+    
     <ParticlesjsBackground/>
 
       <NavBar/>
       <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/About" element={<About />} />
+      <Route path='/' element={<Home/>} />
+      <Route path='/About' element={<About/>} />
+      <Route path='/Faq' element={<Faq/>} />
+
       </Routes>
       <About/>
       <Cards/>
       <Faq/>
       <Carousel/>
+      
       <SocialLinks/>  
       <Address/>    
       <Footer />
-      </div>
+   
+    </div>
   </Router>
   );
 }

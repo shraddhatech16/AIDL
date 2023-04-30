@@ -11,6 +11,10 @@ function Footer() {
       <Typography color="blue-gray" className="text-center font-normal text-white">
         &copy; 2023 AIDL CLUB FCRIT
       </Typography>
+      <Typography color="blue-gray" className="text-center font-normal text-white" >Devloped by <a href="https://www.linkedin.com/in/shraddha-alawane-780334212">Technical Head - Shraddha Alawane &</a></Typography>
+      <Typography color="blue-gray" className="text-center font-normal text-white" ><a href="https://www.linkedin.com/in/md-tahir-s-91b62422b/">Assi. Technical Head - MD Tahir </a>
+
+      </Typography>
     </footer>
   );
 }
