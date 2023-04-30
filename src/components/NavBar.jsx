@@ -28,7 +28,7 @@ const NavBar = () => {
     },
   ];
   return (
-    <div className="flex justify-between items-center w-full h-20 text-white bg-black px-4 fixed">
+    <div className="flex justify-between items-center w-full h-20 text-white bg-black px-4 fixed" style={{zIndex:"100",}}>
       <div>
         <h1 className="text-3xl ml-2">AIDL FCRIT</h1>
       </div>

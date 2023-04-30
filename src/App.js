@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import NavBar from "./components/NavBar";
-import SocialLinks from "./components/SocialLinks";
 import Home from "./components/Home";
 import About from "./components/About";
 import ParticlesjsBackground from "./components/ParticlesjsBackground";
@@ -30,7 +29,8 @@ function App() {
   return (
     <Router>
       <Preloader load={load} />
-      <div className="App" id={load ? "no-scroll" : "scroll"}>
+      <div className="App" id={load ? "no-scroll" : "scroll"}
+      style={{position:"relative",}}>
     
     <ParticlesjsBackground/>
 
@@ -46,7 +46,6 @@ function App() {
       <Faq/>
       <Carousel/>
       
-      <SocialLinks/>  
       <Address/>    
       <Footer />
    

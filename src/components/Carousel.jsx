@@ -58,7 +58,8 @@ function Carousel() {
     
     <div className='lg:max-w-[900px] lg:h-[600px] max-w-[500px] h-[320px] w-full m-auto py-16 px-4 relative group '>
       <div
-        style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
+        style={{ backgroundImage: `url(${slides[currentIndex].url})` ,
+        }}
         className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
       ></div>
       {/* Left Arrow */}
