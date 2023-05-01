@@ -5,6 +5,7 @@ import BDAW from "../assets/Events/BDAW.png"
 import BDAW2 from "../assets/Events/BDAW2.png"
 import BDAW3 from "../assets/Events/BDAW3.png"
 import BDAW4 from "../assets/Events/BDAW4.png"
+import BDAW5 from "../assets/Events/BDAW5.png"
 
 function Carousel() {
   
@@ -21,6 +22,9 @@ function Carousel() {
 
     {
       url: BDAW4,
+    },
+    {
+      url: BDAW5,
     },
     
   ];
@@ -46,7 +50,7 @@ function Carousel() {
   return (
     <div
       name="carousel"
-      className="mt-10 inline-block w-full h-screen bg-gradient-to-b from-gray-800 to-black  text-white "
+      className="mt-10 inline-block w-full h-screen   text-white "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
