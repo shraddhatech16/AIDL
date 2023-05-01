@@ -12,7 +12,7 @@ import CoreComm from "./components/CoreComm";
 
 import Preloader from "./components/Pre";
 import {
-  BrowserRouter,
+  BrowserRouter ,
   Route,
   Routes,
 } from "react-router-dom";
@@ -38,11 +38,11 @@ function App() {
       <NavBar/>
       <Routes>
       <Route index element={<Home/>} />
-      <Route path='/about' element={<About />} />
-      <Route path='/events' element={<Carousel />} />
-      <Route path='/faq' element={<Faq/>} />
-      <Route path="/corecomm" element={<CoreComm/>} />
-      <Route path='/contact us' element={<Address />} />
+      <Route path='/ABOUT US' element={<About />} />
+      <Route path='/EVENTS' element={<Carousel />} />
+      <Route path='/FAQ' element={<Faq/>} />
+      <Route path="/CORE COMMITEE" element={<CoreComm />} />
+      <Route path='/CONTACT US' element={<Address />} />
 
       </Routes>
       <About/>

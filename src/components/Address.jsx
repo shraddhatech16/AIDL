@@ -8,7 +8,7 @@ const Address = () => {
       <div className="max-w-screen-lg mx-auto p-2 flex flex-col justify-center w-full h-full text-white">
         <div>
 
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline ">
+          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline leading-1">
           Fr.Conceicao Rodrigues Institute of Technology
           </p>
           <p className="py-6">Address: Agnel Technical Educational Complex, Sector 9A, Vashi, Navi Mumbai, Maharashtra, India - 400703
