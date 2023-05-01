@@ -60,9 +60,9 @@ const Footer = () => {
   
         </Typography></span>
 <span>   
-<ul className="justify-items-center max-w-fit grid grid-cols-4 sm:grid-cols-4 lg:grid-cols-4 gap-1 justify-items-center pt-1 text-gray-400 text-sm pb-8 sm:ml-20 max-w-fit"style={{maxWidth:"30",}}>
+<ul className="justify-items-center grid grid-cols-4 sm:grid-cols-4 lg:grid-cols-4 gap-1 justify-items-center pt-1 text-gray-400 text-sm pb-8 sm:ml-20">
     {links.map(({id,child,href})=>(
-        <li key={id} className={"justify-items-center max-w-fit grid grid-cols-4 sm:grid-cols-4 lg:grid-cols-4 gap-1 justify-items-center text-center pt-2 text-gray-400 text-sm pb-4  sm:ml-2 justify-items-center text-center max-w-fit"}style={{maxWidth:"30",}}>
+        <li key={id} className={"justify-items-center max-w-fit grid grid-cols-4 sm:grid-cols-4 lg:grid-cols-4 gap-1 justify-items-center text-center pt-2 text-gray-400 text-sm pb-4 sm:ml-2 justify-items-center text-center max-w-fit"}style={{maxWidth:"10px"}}>
         <a 
         href={href} 
         target='_blank'
