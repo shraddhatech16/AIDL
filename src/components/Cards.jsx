@@ -2,6 +2,7 @@ import React from "react";
 
 import HC from '../components/images/HC.png';
 import AS from '../components/images/AS.png';
+import SN from '../components/images/SN.png';
 
 
 
@@ -31,7 +32,7 @@ const Cards = () => {
     },
     {
       id: 4,
-      src: HC,
+      src: SN,
       title: "Ms. Sreedevi Nair",
       style: "shadow-blue-600",
       posi:"Member",
