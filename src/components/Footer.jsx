@@ -52,17 +52,17 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white">
       
       <div
-        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1 text-center pt-2 font-normal text-white text-sm pb-8"
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 text-center pt-2 font-normal text-white text-sm pb-4"
       >
         <span>© 2023 AIDL CLUB FCRIT.</span>
         <span><Typography color="blue-gray" className="text-center font-normal text-white" >Devloped by <a href="https://www.linkedin.com/in/shraddha-alawane-780334212">Technical Head - Shraddha Alawane &</a></Typography>
         <Typography color="blue-gray" className="text-center font-normal text-white" ><a href="https://www.linkedin.com/in/md-tahir-s-91b62422b/">Assi. Technical Head - MD Tahir </a>
   
         </Typography></span>
-       
-<ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 text-center pt-2 text-gray-400 text-sm pb-8">
+<span>   
+<ul className="grid grid-cols-4 sm:grid-cols-4 lg:grid-cols-4 gap-1 items-right items-center mr-0 pt-1 text-gray-400 text-sm pb-8 sm:ml-20">
     {links.map(({id,child,href, style,download})=>(
-        <li key={id} className={"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 text-center pt-2 text-gray-400 text-sm pb-8" + style}>
+        <li key={id} className={"grid grid-cols-4 sm:grid-cols-4 lg:grid-cols-4 gap-1 items-center text-center pt-2 text-gray-400 text-sm pb-8  sm:ml-2 items-center text-center " + style}>
         <a 
         href={href} 
         download={download}
@@ -72,7 +72,7 @@ const Footer = () => {
         {child}</a>
         </li>
 
-    ))}</ul>
+    ))}</ul></span>   
           </div>
     </footer>
   );
