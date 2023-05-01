@@ -6,6 +6,8 @@ import BDAW2 from "../assets/Events/BDAW2.png"
 import BDAW3 from "../assets/Events/BDAW3.png"
 import BDAW4 from "../assets/Events/BDAW4.png"
 import BDAW5 from "../assets/Events/BDAW5.png"
+import BDAW6 from "../assets/Events/BDAW6.png"
+import BDAW7 from "../assets/Events/BDAW7.png"
 
 function Carousel() {
   
@@ -25,6 +27,12 @@ function Carousel() {
     },
     {
       url: BDAW5,
+    },
+    {
+      url: BDAW6,
+    },
+    {
+      url: BDAW7,
     },
     
   ];

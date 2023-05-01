@@ -64,8 +64,8 @@ const particlesLoaded = (container) => {
               color: "#ffffff",
               distance: 150,
               enable: true,
-              opacity: 0.5,
-              width: 1,
+              opacity: 0.4,
+              width: 3,
           },
           collisions: {
               enable: true,
@@ -85,7 +85,7 @@ const particlesLoaded = (container) => {
                   enable: true,
                   area: 800,
               },
-              value: 80,
+              value: 50,
           },
           opacity: {
               value: 0.5,
