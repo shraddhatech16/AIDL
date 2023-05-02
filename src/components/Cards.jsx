@@ -3,6 +3,7 @@ import React from "react";
 import AS from '../components/images/AS.png';
 import MS from '../components/images/MS.png';
 import SMK from '../components/images/SMK.png';
+import PC from '../components/images/PC.png';
 
 
 
@@ -26,7 +27,7 @@ const Cards = () => {
    
     {
       id: 3,
-      src: MS,
+      src: PC,
       title: "Dr. Pranali Choudhari",
       style: "shadow-blue-600",
       posi:"Member",
