@@ -3,7 +3,6 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import ParticlesjsBackground from "./components/ParticlesjsBackground";
 import CoreComm from "./components/CoreComm";
-import Footer from "./components/Footer";
 
 import Preloader from "./components/Pre";
 import {
@@ -31,6 +30,7 @@ function App() {
     <ParticlesjsBackground/>
 
       <NavBar/>
+      
       <Routes>
       <Route index ='/' element={<Home/>} />
       <Route path="/CORE COMMITEE" element={<CoreComm />} />

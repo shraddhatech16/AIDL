@@ -11,6 +11,7 @@ import TH from '../components/images/TH.png';
 import ATec from '../components/images/ATec.png';
 import Treas from '../components/images/Treas.png';
 import { Container} from "react-bootstrap";
+import Footer from "./Footer";
 
 function CoreComm() {
 return(
@@ -192,6 +193,8 @@ return(
     </div>
     </div>
   </Container>
+  <div><Footer/>
+  </div>
   </>
 );};
 export default CoreComm;
