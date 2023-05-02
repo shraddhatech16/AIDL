@@ -16,7 +16,7 @@ const data = [
     {
         title: "About MEMBERSHIP",
         stitle: "How to become a member",
-        desc: "	Its very simple, just click on the link given in membership section and fill a simple google form by paying a minimum amount and your done. Welcome to AIDL club for learing new and interesting stuff... "
+        desc: "	Its very simple, just click on the link given in membership section and fill a simple google form by paying a minimum amount and done. Welcome to AIDL club for learing new technologies and interesting stuff... "
     },
   
 ]
