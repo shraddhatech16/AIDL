@@ -109,10 +109,10 @@ return(
           <h1 className="font-dmserif text-3xl font-bold text-white">Communication Head</h1>
           <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Austin Paul</p>
           <h1 className="font-dmserif text-2xl font-bold text-white">Lets Connect</h1>
-          <button className="rounded-full bg-blue-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"><a className="text-white" href="https://www.linkedin.com/in/omnevase/">LinkedIn</a></button>
+          <button className="rounded-full bg-blue-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"><a className="text-white" href="https://www.linkedin.com/in/austin-paul-16279a248/">LinkedIn</a></button>
           <hr className="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700"></hr>
 
-          <button className="rounded-full bg-blue-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"><a className="text-white" href="https://github.com/OmNevase">GitHub</a></button>
+          <button className="rounded-full bg-blue-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"><a className="text-white" href="https://github.com/AustinPaul01">GitHub</a></button>
         </div>
       </div>
       <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
