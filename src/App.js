@@ -36,7 +36,6 @@ function App() {
       <Route path="/CORE COMMITEE" element={<CoreComm />} />
 
       </Routes> 
-      <Footer/> 
     </div>
   </BrowserRouter>
   );
