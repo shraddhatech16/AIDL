@@ -37,7 +37,7 @@ function App() {
 
       <NavBar/>
       <Routes>
-      <Route index element={<Home/>} />
+      <Route index ='/' element={<Home/>} />
       <Route path='/ABOUT US' element={<About />} />
       <Route path='/EVENTS' element={<Carousel />} />
       <Route path='/FAQ' element={<Faq/>} />

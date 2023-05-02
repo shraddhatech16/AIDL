@@ -57,7 +57,7 @@ function Carousel() {
 
   return (
     <div
-      name="carousel"
+      name="Carousel"
       className="mt-10 inline-block w-full h-screen   text-white "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">

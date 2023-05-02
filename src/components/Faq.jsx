@@ -17,7 +17,7 @@ function Faq() {
     <Container fluid className="faq-section">
 
     <div
-    name="Cards"
+    name="Faq"
     className="my-20 mt-10 inline-block bg-gradient-from-b to-gray-800 to-black w-full h-screen pt-20 "
   >
     <div className="max-w-screen-lg mb-10 inline-block mx-auto p-2 flex flex-col justify-center w-full h-full text-white pt-20 ">
