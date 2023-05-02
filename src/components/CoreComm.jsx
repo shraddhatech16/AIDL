@@ -1,6 +1,4 @@
 import React from "react";
-import NavBar from "../components/NavBar";
-import Footer from "../components/Footer";
 import CP from '../components/images/CP.png';
 import Secre from '../components/images/Secre.png';
 import Asec from '../components/images/Asec.png';
@@ -17,9 +15,8 @@ import { Container} from "react-bootstrap";
 function CoreComm() {
 return(
    <>
-    <NavBar/>
     <Container fluid className="corecomm-section" id="CORE COMMITEE">
-        <p className="text-4xl font-bold inline border-b-4 border-gray-500 text-white  ">
+        <p className="text-4xl font-bold inline border-b-4 border-gray-500 text-white pt-10 mb-10  ">
           Lets Meet the Core Commitee 2022-2023
         </p>
         <br />
@@ -195,7 +192,6 @@ return(
     </div>
     </div>
   </Container>
-  <Footer/>
   </>
 );};
 export default CoreComm;

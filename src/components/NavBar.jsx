@@ -5,25 +5,28 @@ import { HashLink } from 'react-router-hash-link';
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const links = [
-    {
-      id: 1,
-      link: "ABOUT US",
+    {id: 1,
+      link: "HOME",
     },
     {
       id: 2,
-      link: "EVENTS",
+      link: "ABOUT US",
     },
     {
       id: 3,
-      link: "FAQ",
+      link: "EVENTS",
     },
     {
       id: 4,
+      link: "FAQ",
+    },
+    {
+      id: 5,
       link: "CORE COMMITEE",
       
     },
     {
-      id: 5,
+      id: 6,
       link: "CONTACT US",
     },
   ];
@@ -38,7 +41,7 @@ const NavBar = () => {
             key={id}
             className="px-4 cursor-pointer uppercase font-medium text-gray-500 hover:scale-105 duration-200"
           >
-            <HashLink to={id!==4?`#${link}`:`${link}`} smooth>
+            <HashLink to={id!==5?`/#${link}`:`/${link}`} smooth>
               {link}
             </HashLink>
           </li>
@@ -59,7 +62,7 @@ const NavBar = () => {
             >
               <HashLink
                 onClick={() => setNav(!nav)}
-                to={id!==4?`#${link}`:`${link}`} smooth>
+                to={id!==5?`/#${link}`:`/${link}`} smooth>
                 {link}
             </HashLink>
               </li>
