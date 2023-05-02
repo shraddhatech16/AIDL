@@ -17,9 +17,10 @@ function CoreComm() {
 return(
    <>
     <Container fluid className="corecomm-section" id="CORE COMMITEE">
-        <p className="text-4xl font-bold inline border-b-4 border-gray-500 text-white pt-10 mb-10  ">
+    <div className="mt-0 justify-items-center gap-1 justify-items-center pt-10 text-gray-400 text-sm pb-8 sm:ml-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 text-center pt-2 font-normal text-white text-sm pb-4">
+    <p className="text-4xl font-bold inline border-b-4 border-gray-500 text-white pt-10 mt-10  ">
           Lets Meet the Core Commitee 2022-2023
-        </p>
+        </p></div>
         <br />
       
     <div name="CoreComm" id="CORE COMMITEE" className="flex min-h-screen items-center justify-center ">
