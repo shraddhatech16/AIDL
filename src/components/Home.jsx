@@ -1,7 +1,6 @@
 import React from 'react'
 import AIDLLOGO from "../assets/AIDLLOGO.jpeg"
-// import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
-// import { Link } from "react-scroll";
+
 
 const Home = () => {
   return (

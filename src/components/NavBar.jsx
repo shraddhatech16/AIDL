@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Link } from "react-scroll";
+import { HashLink } from 'react-router-hash-link';
+
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const links = [
@@ -14,7 +15,7 @@ const NavBar = () => {
     },
     {
       id: 3,
-      link: "faq",
+      link: "FAQ",
     },
     {
       id: 4,
@@ -37,9 +38,9 @@ const NavBar = () => {
             key={id}
             className="px-4 cursor-pointer uppercase font-medium text-gray-500 hover:scale-105 duration-200"
           >
-            <Link to={link} smooth duration={500}>
+            <HashLink to={id!==4?`#${link}`:`${link}`} smooth>
               {link}
-            </Link>
+            </HashLink>
           </li>
         ))}
       </ul>
@@ -56,11 +57,11 @@ const NavBar = () => {
               key={id}
               className="px-4 cursor-pointer uppercase py-6 text-4xl"
             >
-              <Link
+              <HashLink
                 onClick={() => setNav(!nav)}
-                to={link} smooth duration={500}>
+                to={id!==4?`#${link}`:`${link}`} smooth>
                 {link}
-            </Link>
+            </HashLink>
               </li>
             ))}
         </ul>
