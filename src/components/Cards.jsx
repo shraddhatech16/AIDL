@@ -1,8 +1,8 @@
 import React from "react";
 
-import HC from '../components/images/HC.png';
 import AS from '../components/images/AS.png';
-import SN from '../components/images/SN.png';
+import MS from '../components/images/MS.png';
+import SMK from '../components/images/SMK.png';
 
 
 
@@ -10,42 +10,38 @@ const Cards = () => {
   const techs = [
     {
       id: 1,
-      src: HC,
+      src: MS,
       title: "Dr. Milind Shah",
       style: "shadow-blue-600",
       posi:"Head of the Club",
     },
     {
       id: 2,
-      src: HC,
-      title: "Dr. Hariram Chavan",
-      style: "shadow-blue-500",
-      posi:"Member",
+      src: SMK,
+      title: "Dr. S. M. Khot",
+      style: "shadow-blue-600",
+      posi:"Principal",
+
     },
+   
     {
       id: 3,
-      src: HC,
+      src: MS,
       title: "Dr. Pranali Choudhari",
       style: "shadow-blue-600",
       posi:"Member",
 
     },
+ 
     {
       id: 4,
-      src: SN,
-      title: "Ms. Sreedevi Nair",
-      style: "shadow-blue-600",
-      posi:"Member",
-
-    },
-    {
-      id: 5,
       src: AS,
       title: "Mr. Amroz Siddiqui",
       style: "shadow-blue-600",
       posi:"Member",
 
     },
+    
    
    
   ];
